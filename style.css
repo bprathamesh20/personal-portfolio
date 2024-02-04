@@ -4,6 +4,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     background:  #161513;
+
+}
+section{
+    padding: 0rem 2rem;
 }
 
 nav{
@@ -16,7 +20,7 @@ nav{
     color: var(--Primary-Color, #FFF);
 text-align: center;
 font-family: Poppins;
-font-size: 3.4375rem;
+font-size: 3rem;
 font-style: normal;
 font-weight: 800;
 line-height: 3.95981rem; /* 115.195% */
@@ -28,7 +32,7 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: Poppins;
-font-size: 3.4375rem;
+font-size: 3rem;
 font-style: normal;
 font-weight: 800;
 line-height: 3.95981rem;
@@ -67,6 +71,13 @@ font-size: 1.33625rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.button:hover {
+    background: #161513;
+    color: #FFF;
 }
 
 .button-outline{
@@ -79,6 +90,12 @@ font-size: 1.33625rem;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
+transition: 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button-outline:hover {
+    color: #161513;
+    background: #FFF;
 }
 
 .skills-wrapper{
@@ -137,4 +154,13 @@ background-clip: text;
 footer{
 
     background: #191919;
+    padding: 0rem 2rem;
+}
+
+.transition{
+    transition: transform 0.3s ease-in-out;
+}
+
+.transition:hover {
+    transform: scale(1.1); /* Adjust the scale factor as needed */
 }
